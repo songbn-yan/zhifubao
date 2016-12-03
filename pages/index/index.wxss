@@ -1,0 +1,300 @@
+.count{
+    width: 100%;
+    height: 450rpx;
+    display: block;
+    background: #00AAEE;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 30rpx;
+    position: relative;
+}
+.count .option{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100rpx;
+
+}
+
+.count .option .box{
+    width: 60%;
+    height: 50%;
+    margin: 25rpx auto;
+}
+.count .option .box .principal{
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 50rpx;
+    text-align: center;
+    float: left;
+    letter-spacing: 2px;
+    color:#37bdf5;
+    border-radius:0;
+    border-color:#fff;
+}
+.count .option .box .interests{
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 50rpx;
+    text-align: center;
+    float: left;
+    letter-spacing: 2px;
+    color:#fff;
+    border-radius:0;
+    border-color:#fff;
+}
+
+
+
+.count .jin{
+    position: absolute;
+    top:100rpx;
+    left: 0;
+    width: 100%;
+    height: 200rpx;
+}
+.count .jin .fund{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+    color: #DEF3FC;
+    line-height: 30px;
+
+}
+.count .jin .num{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 35px;
+    height: 100px;
+    color: #ffffff;
+
+}
+
+.count .jin-right{
+    position: absolute;
+    top:100rpx;
+    left: 370rpx;
+    width: 100%;
+    height: 200rpx;
+}
+.count .jin-right .fund{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+    color: #DEF3FC;
+    line-height: 30px;
+
+}
+.count .jin-right .num{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 35px;
+    height: 100px;
+    color: #ffffff;
+
+}
+
+
+
+
+
+.count .xi{
+    position: absolute;
+    top: 300rpx;
+    left: 0;
+    width: 100%;
+    height: 150rpx;
+}
+.count .xi .fund{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+    color: #DEF3FC;
+    line-height: 30px;
+
+}
+.count .xi .num{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 25px;
+    height: 70px;
+    color: #DEF3FC;
+
+}
+
+
+.count .xi-right{
+    position: absolute;
+    top: 300rpx;
+    left: 370rpx;
+    width: 100%;
+    height: 150rpx;
+    border-left: 1px solid #33bdf6;
+}
+.count .xi-right .fund{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+    color: #DEF3FC;
+    line-height: 30px;
+
+}
+.count .xi-right .num{
+    padding-left: 30rpx;
+    width: 100%;
+    font-size: 25px;
+    height: 70px;
+    color: #DEF3FC;
+
+}
+
+
+
+/*下*/
+
+.type{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1px solid #E9E9E9;
+    display: block;
+    margin-left: 30rpx;
+    position: relative;
+}
+.type .type-left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    line-height: 100rpx;
+    font-size: 18px;
+    font-weight: 400;
+    color:#000;
+}
+.type .type-right{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80rpx;
+    height: 100%;
+    width: auto;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+    color:#aaa;
+}
+
+
+
+
+.money{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1px solid #E9E9E9;
+    margin-left: 30rpx;
+    position: relative;
+    display: block;
+}
+.money .money-left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+}
+.money .money-right{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80rpx;
+    height: 100%;
+    width: auto;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+
+
+.time{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1px solid #E9E9E9;
+    margin-left: 30rpx;
+    position: relative;
+    display: block;
+}
+.time .time-left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+    color:#000;
+}
+.time .time-right{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80rpx;
+    height: 100%;
+    width: auto;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+    color:#aaa;
+}
+
+
+
+
+
+.lilv{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1px solid #E9E9E9;
+    margin-left: 30rpx;
+    position: relative;
+    display: block;
+}
+.lilv .lilv-left{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+    color:#000;
+}
+.lilv .lilv-right{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 80rpx;
+    height: 100%;
+    width: auto;
+    line-height: 100rpx;
+    font-size:18px;
+    font-weight: 400;
+    color:#aaa;
+}

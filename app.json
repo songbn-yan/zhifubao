@@ -1,0 +1,14 @@
+{
+    "pages": [
+      "pages/index/index"
+
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#666",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "房贷计算",
+      "backgroundColor": "#ccc",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh":true
+    }
+}

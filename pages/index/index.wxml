@@ -1,0 +1,49 @@
+<view class="count">
+    <view class="option">
+        <view class="box">
+            <button plain="{{up}}" class="principal" type="default" bindtap="benxi">等额本息</button>
+            <button plain="{{down}}" class="interests" type="default" bindtap="benjin">等额本金</button>
+        </view>
+        
+    </view>
+    <view class="jin">
+        <view class="fund">每月月供参考(元)</view>
+        <view class="num">{{g}}</view>
+    </view>
+    <view class="jin-right">
+        <view class="fund">每月递减(元)</view>
+        <view class="num">{{j}}</view>
+    </view>
+    <view class="xi">
+        <view class="fund">支付利息(元)</view>
+        <view class="num">{{x}}</view>
+    </view>
+
+    <view class="xi-right">
+        <view class="fund">还款总额(元)</view>
+        <view class="num">{{w}}</view>
+    </view>
+
+</view>
+
+<view class="type">
+    <view class="type-left">贷款类型</view>
+    <view class="type-right">商业贷款 ></view>
+</view>
+
+<view class="money">
+    <view class="money-left">贷款金额(万)</view>
+    <input maxlength='4' bindinput="val"  class="money-right" focus="{{value}}" />
+</view>
+
+<view class="time" bindtap="times">
+    <view class="time-left">期限(年)</view>
+    <view class="time-right">{{t}} ></view>
+</view>
+
+<view class="lilv">
+    <view class="lilv-left">利率(%)</view>
+    <view class="lilv-right">{{lilv}} ></view>
+</view>
+
+
